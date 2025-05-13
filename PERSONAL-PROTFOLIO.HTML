@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+
+
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+
+  <link rel="stylesheet" href="ribbon.css" />
+  <link rel="stylesheet" href="form.css" />
+  <link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+
+  <!-- Ribbon -->
+  <div class="ribbon">
+    <div class="ribbon-stitches-top"></div>
+    <div class="ribbon-content">
+      <p><b>Join Us To Elevate Yourself</b></p>
+    </div>
+    <div class="ribbon-stitches-bottom"></div>
+  </div>
+
+  <!-- Page Layout -->
+  <div class="page-wrapper">
+
+    <!--  layout  -->
+    <div class="animation">
+      <dotlottie-player
+        src="https://lottie.host/b1518408-f676-4dde-8493-fda975710902/8B3XpP49Gr.lottie"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay>
+      </dotlottie-player>
+    </div>
+
+    <!-- Form Section -->
+    <div class="container">
+        <div class="form_area">
+          <p class="title">Create Account</p>
+          <p class="sub_title">Join the platform today</p>
+      
+          <form>
+            <div class="form_group">
+              <input class="form_style" type="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form_group">
+              <input class="form_style" type="password" placeholder="Enter your password" required />
+            </div>
+            <div class="form_group">
+              <button type="submit" class="btn">Register</button>
+            </div>
+            <span class="link">Already have an account? <a href="#">Login</a></span>
+          </form>
+        </div>
+      </div>
+      
